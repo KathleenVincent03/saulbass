@@ -244,3 +244,13 @@ body {
     margin-right:auto;
     width: 50%
 }
+
+#example1 {
+    border-block-style: solid;
+    border-block-color: grey;
+  }
+  
+  #example2 {
+    border-block-style: solid;
+    border-block-color: rgb(101, 101, 101);
+  }
