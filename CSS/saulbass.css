@@ -1,5 +1,5 @@
 /* import fonts from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* css reset */ 
 
@@ -12,9 +12,9 @@
 
 /* default colours for page*/
 body {
-    color: #000000;
-    border-color:#101010;
-    background-color:#000000
+    color: #484848;
+    border-color:#484848;
+    background-color:#484848
 }
 body {
     background-color: black;
@@ -104,12 +104,10 @@ img {
     max-width: 1020px;
     width:100%;
     height:auto;
-    border:1px solid #101010;
-    margin-bottom: 2rem;
 }
 /*blockquote*/
 figure.quote {
-    border-left: 8px solid #D8415C;
+    border-left: 8px solid #ffffff;
     padding:1.5rem 0 1.5rem 2rem;
     margin-bottom: 2rem;
     }
@@ -146,16 +144,7 @@ header{
         font-size:1.75rem;
         line-height: 1.1;
         }
-    /* colour blocking */
-    .colour-block{
-        padding:3rem 0 3rem 0;
-        background-color:#CBD7DF;
-        margin-bottom:2.5rem;
-        }
-        .highlight {
-            background-color: #D8415C;
-            padding:0 0.5rem;
-            }
+
 /*css grids*/
 .grid {
     display: flex;
@@ -245,12 +234,6 @@ body {
     width: 50%
 }
 
-#example1 {
-    border-block-style: solid;
-    border-block-color: grey;
-  }
-  
-  #example2 {
-    border-block-style: solid;
-    border-block-color: rgb(101, 101, 101);
+span {
+    background-color: #353535;
   }
